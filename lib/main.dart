@@ -7,11 +7,10 @@ void main() {
           backgroundColor: Colors.black,
           appBar: AppBar(
             title: const Text("i am rich"),
-            backgroundColor: Colors.red[800],
+            backgroundColor: const Color.fromARGB(255, 217, 62, 129),
           ),
           body: Center(
-            child: Image.network(
-                "https://lh3.googleusercontent.com/6rI6tTsI2UXRbr_Br7JoYYTRFOnfqyMhzgXM3JOSchbUpAspYniZty2aocD5vdxMSnlx"),
+            child: Image.asset("images/diamond.png"),
           )),
     ),
   );
